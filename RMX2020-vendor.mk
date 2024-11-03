@@ -799,7 +799,6 @@ PRODUCT_PACKAGES += \
     libmnl \
     libmp4enc_sa.ca7 \
     libmp4enc_xa.ca7 \
-    libpn553_fw \
     libstorage_otp \
     libthermalalgo \
     libvc1dec_sa.ca7 \
