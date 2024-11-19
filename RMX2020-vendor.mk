@@ -171,14 +171,8 @@ PRODUCT_COPY_FILES += \
     vendor/realme/RMX2020/proprietary/odm/vendor/app/mcRegistry/09150000000000000000000000000000.tlbin:$(TARGET_COPY_OUT_ODM)/vendor/app/mcRegistry/09150000000000000000000000000000.tlbin \
     vendor/realme/RMX2020/proprietary/odm/vendor/app/mcRegistry/511ead0a000000000000000000000000.tabin:$(TARGET_COPY_OUT_ODM)/vendor/app/mcRegistry/511ead0a000000000000000000000000.tabin \
     vendor/realme/RMX2020/proprietary/system_ext/etc/init/init.vtservice.rc:$(TARGET_COPY_OUT_SYSTEM_EXT)/etc/init/init.vtservice.rc \
-    vendor/realme/RMX2020/proprietary/system_ext/lib/vendor.mediatek.hardware.audio@6.1.so:$(TARGET_COPY_OUT_SYSTEM_EXT)/lib/vendor.mediatek.hardware.audio@6.1.so \
-    vendor/realme/RMX2020/proprietary/system_ext/lib/vendor.mediatek.hardware.bluetooth.audio@2.1.so:$(TARGET_COPY_OUT_SYSTEM_EXT)/lib/vendor.mediatek.hardware.bluetooth.audio@2.1.so \
     vendor/realme/RMX2020/proprietary/system_ext/lib/vendor.oplus.hardware.camera.slogan@1.0.so:$(TARGET_COPY_OUT_SYSTEM_EXT)/lib/vendor.oplus.hardware.camera.slogan@1.0.so \
-    vendor/realme/RMX2020/proprietary/system_ext/lib/vendor.oplus.hardware.displaypanelfeature@1.0.so:$(TARGET_COPY_OUT_SYSTEM_EXT)/lib/vendor.oplus.hardware.displaypanelfeature@1.0.so \
-    vendor/realme/RMX2020/proprietary/system_ext/lib64/vendor.mediatek.hardware.audio@6.1.so:$(TARGET_COPY_OUT_SYSTEM_EXT)/lib64/vendor.mediatek.hardware.audio@6.1.so \
-    vendor/realme/RMX2020/proprietary/system_ext/lib64/vendor.mediatek.hardware.bluetooth.audio@2.1.so:$(TARGET_COPY_OUT_SYSTEM_EXT)/lib64/vendor.mediatek.hardware.bluetooth.audio@2.1.so \
     vendor/realme/RMX2020/proprietary/system_ext/lib64/vendor.oplus.hardware.camera.slogan@1.0.so:$(TARGET_COPY_OUT_SYSTEM_EXT)/lib64/vendor.oplus.hardware.camera.slogan@1.0.so \
-    vendor/realme/RMX2020/proprietary/system_ext/lib64/vendor.oplus.hardware.displaypanelfeature@1.0.so:$(TARGET_COPY_OUT_SYSTEM_EXT)/lib64/vendor.oplus.hardware.displaypanelfeature@1.0.so \
     vendor/realme/RMX2020/proprietary/vendor/app/mcRegistry/020b0000000000000000000000000000.drbin:$(TARGET_COPY_OUT_VENDOR)/app/mcRegistry/020b0000000000000000000000000000.drbin \
     vendor/realme/RMX2020/proprietary/vendor/app/mcRegistry/020b0000000000000000000000000000.tlbin:$(TARGET_COPY_OUT_VENDOR)/app/mcRegistry/020b0000000000000000000000000000.tlbin \
     vendor/realme/RMX2020/proprietary/vendor/app/mcRegistry/020f0000000000000000000000000000.drbin:$(TARGET_COPY_OUT_VENDOR)/app/mcRegistry/020f0000000000000000000000000000.drbin \
@@ -237,6 +231,7 @@ PRODUCT_COPY_FILES += \
     vendor/realme/RMX2020/proprietary/vendor/bin/hw/vendor.mediatek.hardware.nvram@1.1-service:$(TARGET_COPY_OUT_VENDOR)/bin/hw/vendor.mediatek.hardware.nvram@1.1-service \
     vendor/realme/RMX2020/proprietary/vendor/bin/hw/vendor.mediatek.hardware.pq@2.2-service:$(TARGET_COPY_OUT_VENDOR)/bin/hw/vendor.mediatek.hardware.pq@2.2-service \
     vendor/realme/RMX2020/proprietary/vendor/bin/hw/vendor.trustonic.tee@1.1-service:$(TARGET_COPY_OUT_VENDOR)/bin/hw/vendor.trustonic.tee@1.1-service \
+    vendor/realme/RMX2020/proprietary/vendor/bin/hw/vtservice_hidl:$(TARGET_COPY_OUT_VENDOR)/bin/hw/vtservice_hidl \
     vendor/realme/RMX2020/proprietary/vendor/bin/ipsec_mon:$(TARGET_COPY_OUT_VENDOR)/bin/ipsec_mon \
     vendor/realme/RMX2020/proprietary/vendor/bin/jpegtool:$(TARGET_COPY_OUT_VENDOR)/bin/jpegtool \
     vendor/realme/RMX2020/proprietary/vendor/bin/lbs_hidl_service:$(TARGET_COPY_OUT_VENDOR)/bin/lbs_hidl_service \
@@ -332,8 +327,6 @@ PRODUCT_COPY_FILES += \
     vendor/realme/RMX2020/proprietary/vendor/etc/apdb/APDB_MT6768_S01__W2044:$(TARGET_COPY_OUT_VENDOR)/etc/apdb/APDB_MT6768_S01__W2044 \
     vendor/realme/RMX2020/proprietary/vendor/etc/apdb/APDB_MT6768_S01__W2044_ENUM:$(TARGET_COPY_OUT_VENDOR)/etc/apdb/APDB_MT6768_S01__W2044_ENUM \
     vendor/realme/RMX2020/proprietary/vendor/etc/armnn_app.config:$(TARGET_COPY_OUT_VENDOR)/etc/armnn_app.config \
-    vendor/realme/RMX2020/proprietary/vendor/etc/asd/class.tflite:$(TARGET_COPY_OUT_VENDOR)/etc/asd/class.tflite \
-    vendor/realme/RMX2020/proprietary/vendor/etc/asd/detect.tflite:$(TARGET_COPY_OUT_VENDOR)/etc/asd/detect.tflite \
     vendor/realme/RMX2020/proprietary/vendor/etc/audio_param/AudioParamOptions.xml:$(TARGET_COPY_OUT_VENDOR)/etc/audio_param/AudioParamOptions.xml \
     vendor/realme/RMX2020/proprietary/vendor/etc/audio_param/BtInfo_AudioParam.xml:$(TARGET_COPY_OUT_VENDOR)/etc/audio_param/BtInfo_AudioParam.xml \
     vendor/realme/RMX2020/proprietary/vendor/etc/audio_param/BtInfo_ParamUnitDesc.xml:$(TARGET_COPY_OUT_VENDOR)/etc/audio_param/BtInfo_ParamUnitDesc.xml \
@@ -436,159 +429,6 @@ PRODUCT_COPY_FILES += \
     vendor/realme/RMX2020/proprietary/vendor/etc/aurisys_config.xml:$(TARGET_COPY_OUT_VENDOR)/etc/aurisys_config.xml \
     vendor/realme/RMX2020/proprietary/vendor/etc/aurisys_param/Speech_AudioParam.xml:$(TARGET_COPY_OUT_VENDOR)/etc/aurisys_param/Speech_AudioParam.xml \
     vendor/realme/RMX2020/proprietary/vendor/etc/bluetooth_audio_policy_configuration.xml:$(TARGET_COPY_OUT_VENDOR)/etc/bluetooth_audio_policy_configuration.xml \
-    vendor/realme/RMX2020/proprietary/vendor/etc/camera/Arc_wdc_calib.bin:$(TARGET_COPY_OUT_VENDOR)/etc/camera/Arc_wdc_calib.bin \
-    vendor/realme/RMX2020/proprietary/vendor/etc/camera/M_Attribute_AG_BMW_1.1.0.model:$(TARGET_COPY_OUT_VENDOR)/etc/camera/M_Attribute_AG_BMW_1.1.0.model \
-    vendor/realme/RMX2020/proprietary/vendor/etc/camera/M_Attribute_Gender_Age_1.0.model:$(TARGET_COPY_OUT_VENDOR)/etc/camera/M_Attribute_Gender_Age_1.0.model \
-    vendor/realme/RMX2020/proprietary/vendor/etc/camera/engineer_camera_config:$(TARGET_COPY_OUT_VENDOR)/etc/camera/engineer_camera_config \
-    vendor/realme/RMX2020/proprietary/vendor/etc/camera/faceBeautyParam/fb_default:$(TARGET_COPY_OUT_VENDOR)/etc/camera/faceBeautyParam/fb_default \
-    vendor/realme/RMX2020/proprietary/vendor/etc/camera/faceBeautyParam/fb_default_19741:$(TARGET_COPY_OUT_VENDOR)/etc/camera/faceBeautyParam/fb_default_19741 \
-    vendor/realme/RMX2020/proprietary/vendor/etc/camera/fb_model/000.png:$(TARGET_COPY_OUT_VENDOR)/etc/camera/fb_model/000.png \
-    vendor/realme/RMX2020/proprietary/vendor/etc/camera/fb_model/000_pre.bin:$(TARGET_COPY_OUT_VENDOR)/etc/camera/fb_model/000_pre.bin \
-    vendor/realme/RMX2020/proprietary/vendor/etc/camera/fb_model/000_pre.png:$(TARGET_COPY_OUT_VENDOR)/etc/camera/fb_model/000_pre.png \
-    vendor/realme/RMX2020/proprietary/vendor/etc/camera/fb_model/001.png:$(TARGET_COPY_OUT_VENDOR)/etc/camera/fb_model/001.png \
-    vendor/realme/RMX2020/proprietary/vendor/etc/camera/fb_model/001_pre.bin:$(TARGET_COPY_OUT_VENDOR)/etc/camera/fb_model/001_pre.bin \
-    vendor/realme/RMX2020/proprietary/vendor/etc/camera/fb_model/001_pre.png:$(TARGET_COPY_OUT_VENDOR)/etc/camera/fb_model/001_pre.png \
-    vendor/realme/RMX2020/proprietary/vendor/etc/camera/fb_model/002.png:$(TARGET_COPY_OUT_VENDOR)/etc/camera/fb_model/002.png \
-    vendor/realme/RMX2020/proprietary/vendor/etc/camera/fb_model/002_pre.bin:$(TARGET_COPY_OUT_VENDOR)/etc/camera/fb_model/002_pre.bin \
-    vendor/realme/RMX2020/proprietary/vendor/etc/camera/fb_model/002_pre.png:$(TARGET_COPY_OUT_VENDOR)/etc/camera/fb_model/002_pre.png \
-    vendor/realme/RMX2020/proprietary/vendor/etc/camera/fb_model/003.png:$(TARGET_COPY_OUT_VENDOR)/etc/camera/fb_model/003.png \
-    vendor/realme/RMX2020/proprietary/vendor/etc/camera/fb_model/003_pre.bin:$(TARGET_COPY_OUT_VENDOR)/etc/camera/fb_model/003_pre.bin \
-    vendor/realme/RMX2020/proprietary/vendor/etc/camera/fb_model/003_pre.png:$(TARGET_COPY_OUT_VENDOR)/etc/camera/fb_model/003_pre.png \
-    vendor/realme/RMX2020/proprietary/vendor/etc/camera/fb_model/010.png:$(TARGET_COPY_OUT_VENDOR)/etc/camera/fb_model/010.png \
-    vendor/realme/RMX2020/proprietary/vendor/etc/camera/fb_model/010_pre.bin:$(TARGET_COPY_OUT_VENDOR)/etc/camera/fb_model/010_pre.bin \
-    vendor/realme/RMX2020/proprietary/vendor/etc/camera/fb_model/010_pre.png:$(TARGET_COPY_OUT_VENDOR)/etc/camera/fb_model/010_pre.png \
-    vendor/realme/RMX2020/proprietary/vendor/etc/camera/fb_model/011.png:$(TARGET_COPY_OUT_VENDOR)/etc/camera/fb_model/011.png \
-    vendor/realme/RMX2020/proprietary/vendor/etc/camera/fb_model/011_pre.bin:$(TARGET_COPY_OUT_VENDOR)/etc/camera/fb_model/011_pre.bin \
-    vendor/realme/RMX2020/proprietary/vendor/etc/camera/fb_model/011_pre.png:$(TARGET_COPY_OUT_VENDOR)/etc/camera/fb_model/011_pre.png \
-    vendor/realme/RMX2020/proprietary/vendor/etc/camera/fb_model/012.png:$(TARGET_COPY_OUT_VENDOR)/etc/camera/fb_model/012.png \
-    vendor/realme/RMX2020/proprietary/vendor/etc/camera/fb_model/012_pre.bin:$(TARGET_COPY_OUT_VENDOR)/etc/camera/fb_model/012_pre.bin \
-    vendor/realme/RMX2020/proprietary/vendor/etc/camera/fb_model/012_pre.png:$(TARGET_COPY_OUT_VENDOR)/etc/camera/fb_model/012_pre.png \
-    vendor/realme/RMX2020/proprietary/vendor/etc/camera/fb_model/013.png:$(TARGET_COPY_OUT_VENDOR)/etc/camera/fb_model/013.png \
-    vendor/realme/RMX2020/proprietary/vendor/etc/camera/fb_model/013_pre.bin:$(TARGET_COPY_OUT_VENDOR)/etc/camera/fb_model/013_pre.bin \
-    vendor/realme/RMX2020/proprietary/vendor/etc/camera/fb_model/100.png:$(TARGET_COPY_OUT_VENDOR)/etc/camera/fb_model/100.png \
-    vendor/realme/RMX2020/proprietary/vendor/etc/camera/fb_model/100_pre.bin:$(TARGET_COPY_OUT_VENDOR)/etc/camera/fb_model/100_pre.bin \
-    vendor/realme/RMX2020/proprietary/vendor/etc/camera/fb_model/100_pre.png:$(TARGET_COPY_OUT_VENDOR)/etc/camera/fb_model/100_pre.png \
-    vendor/realme/RMX2020/proprietary/vendor/etc/camera/fb_model/101.png:$(TARGET_COPY_OUT_VENDOR)/etc/camera/fb_model/101.png \
-    vendor/realme/RMX2020/proprietary/vendor/etc/camera/fb_model/101_pre.bin:$(TARGET_COPY_OUT_VENDOR)/etc/camera/fb_model/101_pre.bin \
-    vendor/realme/RMX2020/proprietary/vendor/etc/camera/fb_model/101_pre.png:$(TARGET_COPY_OUT_VENDOR)/etc/camera/fb_model/101_pre.png \
-    vendor/realme/RMX2020/proprietary/vendor/etc/camera/fb_model/102.png:$(TARGET_COPY_OUT_VENDOR)/etc/camera/fb_model/102.png \
-    vendor/realme/RMX2020/proprietary/vendor/etc/camera/fb_model/102_pre.bin:$(TARGET_COPY_OUT_VENDOR)/etc/camera/fb_model/102_pre.bin \
-    vendor/realme/RMX2020/proprietary/vendor/etc/camera/fb_model/102_pre.png:$(TARGET_COPY_OUT_VENDOR)/etc/camera/fb_model/102_pre.png \
-    vendor/realme/RMX2020/proprietary/vendor/etc/camera/fb_model/103.png:$(TARGET_COPY_OUT_VENDOR)/etc/camera/fb_model/103.png \
-    vendor/realme/RMX2020/proprietary/vendor/etc/camera/fb_model/103_pre.bin:$(TARGET_COPY_OUT_VENDOR)/etc/camera/fb_model/103_pre.bin \
-    vendor/realme/RMX2020/proprietary/vendor/etc/camera/fb_model/103_pre.png:$(TARGET_COPY_OUT_VENDOR)/etc/camera/fb_model/103_pre.png \
-    vendor/realme/RMX2020/proprietary/vendor/etc/camera/fb_model/110.png:$(TARGET_COPY_OUT_VENDOR)/etc/camera/fb_model/110.png \
-    vendor/realme/RMX2020/proprietary/vendor/etc/camera/fb_model/110_pre.bin:$(TARGET_COPY_OUT_VENDOR)/etc/camera/fb_model/110_pre.bin \
-    vendor/realme/RMX2020/proprietary/vendor/etc/camera/fb_model/110_pre.png:$(TARGET_COPY_OUT_VENDOR)/etc/camera/fb_model/110_pre.png \
-    vendor/realme/RMX2020/proprietary/vendor/etc/camera/fb_model/111.png:$(TARGET_COPY_OUT_VENDOR)/etc/camera/fb_model/111.png \
-    vendor/realme/RMX2020/proprietary/vendor/etc/camera/fb_model/111_pre.bin:$(TARGET_COPY_OUT_VENDOR)/etc/camera/fb_model/111_pre.bin \
-    vendor/realme/RMX2020/proprietary/vendor/etc/camera/fb_model/111_pre.png:$(TARGET_COPY_OUT_VENDOR)/etc/camera/fb_model/111_pre.png \
-    vendor/realme/RMX2020/proprietary/vendor/etc/camera/fb_model/112.png:$(TARGET_COPY_OUT_VENDOR)/etc/camera/fb_model/112.png \
-    vendor/realme/RMX2020/proprietary/vendor/etc/camera/fb_model/112_pre.bin:$(TARGET_COPY_OUT_VENDOR)/etc/camera/fb_model/112_pre.bin \
-    vendor/realme/RMX2020/proprietary/vendor/etc/camera/fb_model/112_pre.png:$(TARGET_COPY_OUT_VENDOR)/etc/camera/fb_model/112_pre.png \
-    vendor/realme/RMX2020/proprietary/vendor/etc/camera/fb_model/113.png:$(TARGET_COPY_OUT_VENDOR)/etc/camera/fb_model/113.png \
-    vendor/realme/RMX2020/proprietary/vendor/etc/camera/fb_model/113_pre.bin:$(TARGET_COPY_OUT_VENDOR)/etc/camera/fb_model/113_pre.bin \
-    vendor/realme/RMX2020/proprietary/vendor/etc/camera/fb_model/200.png:$(TARGET_COPY_OUT_VENDOR)/etc/camera/fb_model/200.png \
-    vendor/realme/RMX2020/proprietary/vendor/etc/camera/fb_model/200_pre.bin:$(TARGET_COPY_OUT_VENDOR)/etc/camera/fb_model/200_pre.bin \
-    vendor/realme/RMX2020/proprietary/vendor/etc/camera/fb_model/200_pre.png:$(TARGET_COPY_OUT_VENDOR)/etc/camera/fb_model/200_pre.png \
-    vendor/realme/RMX2020/proprietary/vendor/etc/camera/fb_model/201.png:$(TARGET_COPY_OUT_VENDOR)/etc/camera/fb_model/201.png \
-    vendor/realme/RMX2020/proprietary/vendor/etc/camera/fb_model/201_pre.bin:$(TARGET_COPY_OUT_VENDOR)/etc/camera/fb_model/201_pre.bin \
-    vendor/realme/RMX2020/proprietary/vendor/etc/camera/fb_model/201_pre.png:$(TARGET_COPY_OUT_VENDOR)/etc/camera/fb_model/201_pre.png \
-    vendor/realme/RMX2020/proprietary/vendor/etc/camera/fb_model/202.png:$(TARGET_COPY_OUT_VENDOR)/etc/camera/fb_model/202.png \
-    vendor/realme/RMX2020/proprietary/vendor/etc/camera/fb_model/202_pre.bin:$(TARGET_COPY_OUT_VENDOR)/etc/camera/fb_model/202_pre.bin \
-    vendor/realme/RMX2020/proprietary/vendor/etc/camera/fb_model/202_pre.png:$(TARGET_COPY_OUT_VENDOR)/etc/camera/fb_model/202_pre.png \
-    vendor/realme/RMX2020/proprietary/vendor/etc/camera/fb_model/203.png:$(TARGET_COPY_OUT_VENDOR)/etc/camera/fb_model/203.png \
-    vendor/realme/RMX2020/proprietary/vendor/etc/camera/fb_model/203_pre.bin:$(TARGET_COPY_OUT_VENDOR)/etc/camera/fb_model/203_pre.bin \
-    vendor/realme/RMX2020/proprietary/vendor/etc/camera/fb_model/203_pre.png:$(TARGET_COPY_OUT_VENDOR)/etc/camera/fb_model/203_pre.png \
-    vendor/realme/RMX2020/proprietary/vendor/etc/camera/fb_model/210.png:$(TARGET_COPY_OUT_VENDOR)/etc/camera/fb_model/210.png \
-    vendor/realme/RMX2020/proprietary/vendor/etc/camera/fb_model/210_pre.bin:$(TARGET_COPY_OUT_VENDOR)/etc/camera/fb_model/210_pre.bin \
-    vendor/realme/RMX2020/proprietary/vendor/etc/camera/fb_model/210_pre.png:$(TARGET_COPY_OUT_VENDOR)/etc/camera/fb_model/210_pre.png \
-    vendor/realme/RMX2020/proprietary/vendor/etc/camera/fb_model/211.png:$(TARGET_COPY_OUT_VENDOR)/etc/camera/fb_model/211.png \
-    vendor/realme/RMX2020/proprietary/vendor/etc/camera/fb_model/211_pre.bin:$(TARGET_COPY_OUT_VENDOR)/etc/camera/fb_model/211_pre.bin \
-    vendor/realme/RMX2020/proprietary/vendor/etc/camera/fb_model/211_pre.png:$(TARGET_COPY_OUT_VENDOR)/etc/camera/fb_model/211_pre.png \
-    vendor/realme/RMX2020/proprietary/vendor/etc/camera/fb_model/212.png:$(TARGET_COPY_OUT_VENDOR)/etc/camera/fb_model/212.png \
-    vendor/realme/RMX2020/proprietary/vendor/etc/camera/fb_model/212_pre.bin:$(TARGET_COPY_OUT_VENDOR)/etc/camera/fb_model/212_pre.bin \
-    vendor/realme/RMX2020/proprietary/vendor/etc/camera/fb_model/212_pre.png:$(TARGET_COPY_OUT_VENDOR)/etc/camera/fb_model/212_pre.png \
-    vendor/realme/RMX2020/proprietary/vendor/etc/camera/fb_model/213.png:$(TARGET_COPY_OUT_VENDOR)/etc/camera/fb_model/213.png \
-    vendor/realme/RMX2020/proprietary/vendor/etc/camera/fb_model/213_pre.bin:$(TARGET_COPY_OUT_VENDOR)/etc/camera/fb_model/213_pre.bin \
-    vendor/realme/RMX2020/proprietary/vendor/etc/camera/fb_model/PreCalVarBinary.bin:$(TARGET_COPY_OUT_VENDOR)/etc/camera/fb_model/PreCalVarBinary.bin \
-    vendor/realme/RMX2020/proprietary/vendor/etc/camera/fb_model/PreHighPassBinary.bin:$(TARGET_COPY_OUT_VENDOR)/etc/camera/fb_model/PreHighPassBinary.bin \
-    vendor/realme/RMX2020/proprietary/vendor/etc/camera/fb_model/PreHoriFilterBinary.bin:$(TARGET_COPY_OUT_VENDOR)/etc/camera/fb_model/PreHoriFilterBinary.bin \
-    vendor/realme/RMX2020/proprietary/vendor/etc/camera/fb_model/PreMakeupBinary.bin:$(TARGET_COPY_OUT_VENDOR)/etc/camera/fb_model/PreMakeupBinary.bin \
-    vendor/realme/RMX2020/proprietary/vendor/etc/camera/fb_model/PreMorphBinary.bin:$(TARGET_COPY_OUT_VENDOR)/etc/camera/fb_model/PreMorphBinary.bin \
-    vendor/realme/RMX2020/proprietary/vendor/etc/camera/fb_model/PreNoFaceBinary.bin:$(TARGET_COPY_OUT_VENDOR)/etc/camera/fb_model/PreNoFaceBinary.bin \
-    vendor/realme/RMX2020/proprietary/vendor/etc/camera/fb_model/PreNormalBinary.bin:$(TARGET_COPY_OUT_VENDOR)/etc/camera/fb_model/PreNormalBinary.bin \
-    vendor/realme/RMX2020/proprietary/vendor/etc/camera/fb_model/PreOnlywhitenBinary.bin:$(TARGET_COPY_OUT_VENDOR)/etc/camera/fb_model/PreOnlywhitenBinary.bin \
-    vendor/realme/RMX2020/proprietary/vendor/etc/camera/fb_model/PreSkintuneBinary.bin:$(TARGET_COPY_OUT_VENDOR)/etc/camera/fb_model/PreSkintuneBinary.bin \
-    vendor/realme/RMX2020/proprietary/vendor/etc/camera/fb_model/PreSurfaceBlurBinary.bin:$(TARGET_COPY_OUT_VENDOR)/etc/camera/fb_model/PreSurfaceBlurBinary.bin \
-    vendor/realme/RMX2020/proprietary/vendor/etc/camera/fb_model/PreVertFilterBinary.bin:$(TARGET_COPY_OUT_VENDOR)/etc/camera/fb_model/PreVertFilterBinary.bin \
-    vendor/realme/RMX2020/proprietary/vendor/etc/camera/fb_model/eyeBright.png:$(TARGET_COPY_OUT_VENDOR)/etc/camera/fb_model/eyeBright.png \
-    vendor/realme/RMX2020/proprietary/vendor/etc/camera/fb_model/skin_CCT.png:$(TARGET_COPY_OUT_VENDOR)/etc/camera/fb_model/skin_CCT.png \
-    vendor/realme/RMX2020/proprietary/vendor/etc/camera/fb_model/skin_back.png:$(TARGET_COPY_OUT_VENDOR)/etc/camera/fb_model/skin_back.png \
-    vendor/realme/RMX2020/proprietary/vendor/etc/camera/fb_model/skin_dark.png:$(TARGET_COPY_OUT_VENDOR)/etc/camera/fb_model/skin_dark.png \
-    vendor/realme/RMX2020/proprietary/vendor/etc/camera/fb_model/skin_indian.png:$(TARGET_COPY_OUT_VENDOR)/etc/camera/fb_model/skin_indian.png \
-    vendor/realme/RMX2020/proprietary/vendor/etc/camera/fb_model/skin_normal.png:$(TARGET_COPY_OUT_VENDOR)/etc/camera/fb_model/skin_normal.png \
-    vendor/realme/RMX2020/proprietary/vendor/etc/camera/fb_model/skinmask.bin:$(TARGET_COPY_OUT_VENDOR)/etc/camera/fb_model/skinmask.bin \
-    vendor/realme/RMX2020/proprietary/vendor/etc/camera/fb_model/skinmask.png:$(TARGET_COPY_OUT_VENDOR)/etc/camera/fb_model/skinmask.png \
-    vendor/realme/RMX2020/proprietary/vendor/etc/camera/filters_lut/B1VLf4peM:$(TARGET_COPY_OUT_VENDOR)/etc/camera/filters_lut/B1VLf4peM \
-    vendor/realme/RMX2020/proprietary/vendor/etc/camera/filters_lut/B1aMqioxf:$(TARGET_COPY_OUT_VENDOR)/etc/camera/filters_lut/B1aMqioxf \
-    vendor/realme/RMX2020/proprietary/vendor/etc/camera/filters_lut/B1nmcmWbG:$(TARGET_COPY_OUT_VENDOR)/etc/camera/filters_lut/B1nmcmWbG \
-    vendor/realme/RMX2020/proprietary/vendor/etc/camera/filters_lut/B1si_XbZz:$(TARGET_COPY_OUT_VENDOR)/etc/camera/filters_lut/B1si_XbZz \
-    vendor/realme/RMX2020/proprietary/vendor/etc/camera/filters_lut/BJJAwoigM:$(TARGET_COPY_OUT_VENDOR)/etc/camera/filters_lut/BJJAwoigM \
-    vendor/realme/RMX2020/proprietary/vendor/etc/camera/filters_lut/BJyKIwqxz:$(TARGET_COPY_OUT_VENDOR)/etc/camera/filters_lut/BJyKIwqxz \
-    vendor/realme/RMX2020/proprietary/vendor/etc/camera/filters_lut/ByW7g4bbf:$(TARGET_COPY_OUT_VENDOR)/etc/camera/filters_lut/ByW7g4bbf \
-    vendor/realme/RMX2020/proprietary/vendor/etc/camera/filters_lut/ByYo3If:$(TARGET_COPY_OUT_VENDOR)/etc/camera/filters_lut/ByYo3If \
-    vendor/realme/RMX2020/proprietary/vendor/etc/camera/filters_lut/BycYf7WWz:$(TARGET_COPY_OUT_VENDOR)/etc/camera/filters_lut/BycYf7WWz \
-    vendor/realme/RMX2020/proprietary/vendor/etc/camera/filters_lut/EyxRbD2UCe:$(TARGET_COPY_OUT_VENDOR)/etc/camera/filters_lut/EyxRbD2UCe \
-    vendor/realme/RMX2020/proprietary/vendor/etc/camera/filters_lut/SJ3mbr6ef:$(TARGET_COPY_OUT_VENDOR)/etc/camera/filters_lut/SJ3mbr6ef \
-    vendor/realme/RMX2020/proprietary/vendor/etc/camera/filters_lut/SkpZ8ebbz:$(TARGET_COPY_OUT_VENDOR)/etc/camera/filters_lut/SkpZ8ebbz \
-    vendor/realme/RMX2020/proprietary/vendor/etc/camera/filters_lut/Sy4uLSTgf:$(TARGET_COPY_OUT_VENDOR)/etc/camera/filters_lut/Sy4uLSTgf \
-    vendor/realme/RMX2020/proprietary/vendor/etc/camera/filters_lut/Syt2KeZZf:$(TARGET_COPY_OUT_VENDOR)/etc/camera/filters_lut/Syt2KeZZf \
-    vendor/realme/RMX2020/proprietary/vendor/etc/camera/filters_lut/black_gold.bin:$(TARGET_COPY_OUT_VENDOR)/etc/camera/filters_lut/black_gold.bin \
-    vendor/realme/RMX2020/proprietary/vendor/etc/camera/filters_lut/bowu-2.1.cube.rgb.bin:$(TARGET_COPY_OUT_VENDOR)/etc/camera/filters_lut/bowu-2.1.cube.rgb.bin \
-    vendor/realme/RMX2020/proprietary/vendor/etc/camera/filters_lut/bright_coloured.bin:$(TARGET_COPY_OUT_VENDOR)/etc/camera/filters_lut/bright_coloured.bin \
-    vendor/realme/RMX2020/proprietary/vendor/etc/camera/filters_lut/default:$(TARGET_COPY_OUT_VENDOR)/etc/camera/filters_lut/default \
-    vendor/realme/RMX2020/proprietary/vendor/etc/camera/filters_lut/f_bin_hideaki:$(TARGET_COPY_OUT_VENDOR)/etc/camera/filters_lut/f_bin_hideaki \
-    vendor/realme/RMX2020/proprietary/vendor/etc/camera/filters_lut/f_candy_water_weak.cube.rgb.bin:$(TARGET_COPY_OUT_VENDOR)/etc/camera/filters_lut/f_candy_water_weak.cube.rgb.bin \
-    vendor/realme/RMX2020/proprietary/vendor/etc/camera/filters_lut/f_contrast_gray_face_dark:$(TARGET_COPY_OUT_VENDOR)/etc/camera/filters_lut/f_contrast_gray_face_dark \
-    vendor/realme/RMX2020/proprietary/vendor/etc/camera/filters_lut/f_fuji_strong.cube.rgb.bin:$(TARGET_COPY_OUT_VENDOR)/etc/camera/filters_lut/f_fuji_strong.cube.rgb.bin \
-    vendor/realme/RMX2020/proprietary/vendor/etc/camera/filters_lut/f_japan_strong.cube.rgb.bin:$(TARGET_COPY_OUT_VENDOR)/etc/camera/filters_lut/f_japan_strong.cube.rgb.bin \
-    vendor/realme/RMX2020/proprietary/vendor/etc/camera/filters_lut/interstellar_space.bin:$(TARGET_COPY_OUT_VENDOR)/etc/camera/filters_lut/interstellar_space.bin \
-    vendor/realme/RMX2020/proprietary/vendor/etc/camera/filters_lut/jiari-2.0.cube.rgb.bin:$(TARGET_COPY_OUT_VENDOR)/etc/camera/filters_lut/jiari-2.0.cube.rgb.bin \
-    vendor/realme/RMX2020/proprietary/vendor/etc/camera/filters_lut/lvtu-2.0.cube.rgb.bin:$(TARGET_COPY_OUT_VENDOR)/etc/camera/filters_lut/lvtu-2.0.cube.rgb.bin \
-    vendor/realme/RMX2020/proprietary/vendor/etc/camera/filters_lut/meiwei-2.2.cube.rgb.bin:$(TARGET_COPY_OUT_VENDOR)/etc/camera/filters_lut/meiwei-2.2.cube.rgb.bin \
-    vendor/realme/RMX2020/proprietary/vendor/etc/camera/filters_lut/neon-2020.cube.rgb.bin:$(TARGET_COPY_OUT_VENDOR)/etc/camera/filters_lut/neon-2020.cube.rgb.bin \
-    vendor/realme/RMX2020/proprietary/vendor/etc/camera/filters_lut/oppo_video_filter_black_and_white:$(TARGET_COPY_OUT_VENDOR)/etc/camera/filters_lut/oppo_video_filter_black_and_white \
-    vendor/realme/RMX2020/proprietary/vendor/etc/camera/filters_lut/oppo_video_filter_highlight:$(TARGET_COPY_OUT_VENDOR)/etc/camera/filters_lut/oppo_video_filter_highlight \
-    vendor/realme/RMX2020/proprietary/vendor/etc/camera/filters_lut/oppo_video_filter_ins:$(TARGET_COPY_OUT_VENDOR)/etc/camera/filters_lut/oppo_video_filter_ins \
-    vendor/realme/RMX2020/proprietary/vendor/etc/camera/filters_lut/oppo_video_filter_natal:$(TARGET_COPY_OUT_VENDOR)/etc/camera/filters_lut/oppo_video_filter_natal \
-    vendor/realme/RMX2020/proprietary/vendor/etc/camera/filters_lut/oppo_video_filter_olympus:$(TARGET_COPY_OUT_VENDOR)/etc/camera/filters_lut/oppo_video_filter_olympus \
-    vendor/realme/RMX2020/proprietary/vendor/etc/camera/filters_lut/oppo_video_filter_plain:$(TARGET_COPY_OUT_VENDOR)/etc/camera/filters_lut/oppo_video_filter_plain \
-    vendor/realme/RMX2020/proprietary/vendor/etc/camera/filters_lut/oppo_video_filter_show:$(TARGET_COPY_OUT_VENDOR)/etc/camera/filters_lut/oppo_video_filter_show \
-    vendor/realme/RMX2020/proprietary/vendor/etc/camera/filters_lut/oppo_video_filter_solar:$(TARGET_COPY_OUT_VENDOR)/etc/camera/filters_lut/oppo_video_filter_solar \
-    vendor/realme/RMX2020/proprietary/vendor/etc/camera/filters_lut/oppo_video_filter_strong:$(TARGET_COPY_OUT_VENDOR)/etc/camera/filters_lut/oppo_video_filter_strong \
-    vendor/realme/RMX2020/proprietary/vendor/etc/camera/filters_lut/oppo_video_filter_west:$(TARGET_COPY_OUT_VENDOR)/etc/camera/filters_lut/oppo_video_filter_west \
-    vendor/realme/RMX2020/proprietary/vendor/etc/camera/filters_lut/p4_1.cube.rgb.bin:$(TARGET_COPY_OUT_VENDOR)/etc/camera/filters_lut/p4_1.cube.rgb.bin \
-    vendor/realme/RMX2020/proprietary/vendor/etc/camera/filters_lut/p4_2.cube.rgb.bin:$(TARGET_COPY_OUT_VENDOR)/etc/camera/filters_lut/p4_2.cube.rgb.bin \
-    vendor/realme/RMX2020/proprietary/vendor/etc/camera/filters_lut/p4_3.cube.rgb.bin:$(TARGET_COPY_OUT_VENDOR)/etc/camera/filters_lut/p4_3.cube.rgb.bin \
-    vendor/realme/RMX2020/proprietary/vendor/etc/camera/filters_lut/p4_4.cube.rgb.bin:$(TARGET_COPY_OUT_VENDOR)/etc/camera/filters_lut/p4_4.cube.rgb.bin \
-    vendor/realme/RMX2020/proprietary/vendor/etc/camera/filters_lut/qiuri-2.0.cube.rgb.bin:$(TARGET_COPY_OUT_VENDOR)/etc/camera/filters_lut/qiuri-2.0.cube.rgb.bin \
-    vendor/realme/RMX2020/proprietary/vendor/etc/camera/filters_lut/r1JaFSZZG:$(TARGET_COPY_OUT_VENDOR)/etc/camera/filters_lut/r1JaFSZZG \
-    vendor/realme/RMX2020/proprietary/vendor/etc/camera/filters_lut/r1PrfoolG:$(TARGET_COPY_OUT_VENDOR)/etc/camera/filters_lut/r1PrfoolG \
-    vendor/realme/RMX2020/proprietary/vendor/etc/camera/filters_lut/rJ5g5vPWG:$(TARGET_COPY_OUT_VENDOR)/etc/camera/filters_lut/rJ5g5vPWG \
-    vendor/realme/RMX2020/proprietary/vendor/etc/camera/filters_lut/rJxJtmaez:$(TARGET_COPY_OUT_VENDOR)/etc/camera/filters_lut/rJxJtmaez \
-    vendor/realme/RMX2020/proprietary/vendor/etc/camera/filters_lut/realme-black-gold-1.1-RGB.CUBE.rgb.bin:$(TARGET_COPY_OUT_VENDOR)/etc/camera/filters_lut/realme-black-gold-1.1-RGB.CUBE.rgb.bin \
-    vendor/realme/RMX2020/proprietary/vendor/etc/camera/filters_lut/realme-cyberpunk-RGB.CUBE.rgb.bin:$(TARGET_COPY_OUT_VENDOR)/etc/camera/filters_lut/realme-cyberpunk-RGB.CUBE.rgb.bin \
-    vendor/realme/RMX2020/proprietary/vendor/etc/camera/filters_lut/realme-infra-RGB.CUBE.rgb.bin:$(TARGET_COPY_OUT_VENDOR)/etc/camera/filters_lut/realme-infra-RGB.CUBE.rgb.bin \
-    vendor/realme/RMX2020/proprietary/vendor/etc/camera/filters_lut/red-red.cube.rgb.bin:$(TARGET_COPY_OUT_VENDOR)/etc/camera/filters_lut/red-red.cube.rgb.bin \
-    vendor/realme/RMX2020/proprietary/vendor/etc/camera/filters_lut/rkMhq4ZWf:$(TARGET_COPY_OUT_VENDOR)/etc/camera/filters_lut/rkMhq4ZWf \
-    vendor/realme/RMX2020/proprietary/vendor/etc/camera/filters_lut/rkx5u4Zbf:$(TARGET_COPY_OUT_VENDOR)/etc/camera/filters_lut/rkx5u4Zbf \
-    vendor/realme/RMX2020/proprietary/vendor/etc/camera/filters_lut/senlin-2.0.cube.rgb.bin:$(TARGET_COPY_OUT_VENDOR)/etc/camera/filters_lut/senlin-2.0.cube.rgb.bin \
-    vendor/realme/RMX2020/proprietary/vendor/etc/camera/filters_lut/sky-blue.cube.rgb.bin:$(TARGET_COPY_OUT_VENDOR)/etc/camera/filters_lut/sky-blue.cube.rgb.bin \
-    vendor/realme/RMX2020/proprietary/vendor/etc/camera/filters_lut/tree-green.cube.rgb.bin:$(TARGET_COPY_OUT_VENDOR)/etc/camera/filters_lut/tree-green.cube.rgb.bin \
-    vendor/realme/RMX2020/proprietary/vendor/etc/camera/filters_lut/yuanqi-2.2s.cube.rgb.bin:$(TARGET_COPY_OUT_VENDOR)/etc/camera/filters_lut/yuanqi-2.2s.cube.rgb.bin \
-    vendor/realme/RMX2020/proprietary/vendor/etc/camera/gasryuv.model:$(TARGET_COPY_OUT_VENDOR)/etc/camera/gasryuv.model \
-    vendor/realme/RMX2020/proprietary/vendor/etc/camera/merged_model_post:$(TARGET_COPY_OUT_VENDOR)/etc/camera/merged_model_post \
     vendor/realme/RMX2020/proprietary/vendor/etc/ecc_list.xml:$(TARGET_COPY_OUT_VENDOR)/etc/ecc_list.xml \
     vendor/realme/RMX2020/proprietary/vendor/etc/ecc_list_OP01.xml:$(TARGET_COPY_OUT_VENDOR)/etc/ecc_list_OP01.xml \
     vendor/realme/RMX2020/proprietary/vendor/etc/ecc_list_OP02.xml:$(TARGET_COPY_OUT_VENDOR)/etc/ecc_list_OP02.xml \
@@ -686,168 +526,6 @@ PRODUCT_COPY_FILES += \
     vendor/realme/RMX2020/proprietary/vendor/etc/mtk_omx_core.cfg:$(TARGET_COPY_OUT_VENDOR)/etc/mtk_omx_core.cfg \
     vendor/realme/RMX2020/proprietary/vendor/etc/ncf_pack.ncf:$(TARGET_COPY_OUT_VENDOR)/etc/ncf_pack.ncf \
     vendor/realme/RMX2020/proprietary/vendor/etc/permissions/com.mediatek.hardware.vow.xml:$(TARGET_COPY_OUT_VENDOR)/etc/permissions/com.mediatek.hardware.vow.xml \
-    vendor/realme/RMX2020/proprietary/vendor/etc/security/cacerts/00673b5b.0:$(TARGET_COPY_OUT_VENDOR)/etc/security/cacerts/00673b5b.0 \
-    vendor/realme/RMX2020/proprietary/vendor/etc/security/cacerts/04f60c28.0:$(TARGET_COPY_OUT_VENDOR)/etc/security/cacerts/04f60c28.0 \
-    vendor/realme/RMX2020/proprietary/vendor/etc/security/cacerts/0d69c7e1.0:$(TARGET_COPY_OUT_VENDOR)/etc/security/cacerts/0d69c7e1.0 \
-    vendor/realme/RMX2020/proprietary/vendor/etc/security/cacerts/10531352.0:$(TARGET_COPY_OUT_VENDOR)/etc/security/cacerts/10531352.0 \
-    vendor/realme/RMX2020/proprietary/vendor/etc/security/cacerts/111e6273.0:$(TARGET_COPY_OUT_VENDOR)/etc/security/cacerts/111e6273.0 \
-    vendor/realme/RMX2020/proprietary/vendor/etc/security/cacerts/12d55845.0:$(TARGET_COPY_OUT_VENDOR)/etc/security/cacerts/12d55845.0 \
-    vendor/realme/RMX2020/proprietary/vendor/etc/security/cacerts/1dcd6f4c.0:$(TARGET_COPY_OUT_VENDOR)/etc/security/cacerts/1dcd6f4c.0 \
-    vendor/realme/RMX2020/proprietary/vendor/etc/security/cacerts/1df5a75f.0:$(TARGET_COPY_OUT_VENDOR)/etc/security/cacerts/1df5a75f.0 \
-    vendor/realme/RMX2020/proprietary/vendor/etc/security/cacerts/1e1eab7c.0:$(TARGET_COPY_OUT_VENDOR)/etc/security/cacerts/1e1eab7c.0 \
-    vendor/realme/RMX2020/proprietary/vendor/etc/security/cacerts/1e8e7201.0:$(TARGET_COPY_OUT_VENDOR)/etc/security/cacerts/1e8e7201.0 \
-    vendor/realme/RMX2020/proprietary/vendor/etc/security/cacerts/1eb37bdf.0:$(TARGET_COPY_OUT_VENDOR)/etc/security/cacerts/1eb37bdf.0 \
-    vendor/realme/RMX2020/proprietary/vendor/etc/security/cacerts/1f58a078.0:$(TARGET_COPY_OUT_VENDOR)/etc/security/cacerts/1f58a078.0 \
-    vendor/realme/RMX2020/proprietary/vendor/etc/security/cacerts/219d9499.0:$(TARGET_COPY_OUT_VENDOR)/etc/security/cacerts/219d9499.0 \
-    vendor/realme/RMX2020/proprietary/vendor/etc/security/cacerts/23f4c490.0:$(TARGET_COPY_OUT_VENDOR)/etc/security/cacerts/23f4c490.0 \
-    vendor/realme/RMX2020/proprietary/vendor/etc/security/cacerts/27af790d.0:$(TARGET_COPY_OUT_VENDOR)/etc/security/cacerts/27af790d.0 \
-    vendor/realme/RMX2020/proprietary/vendor/etc/security/cacerts/2add47b6.0:$(TARGET_COPY_OUT_VENDOR)/etc/security/cacerts/2add47b6.0 \
-    vendor/realme/RMX2020/proprietary/vendor/etc/security/cacerts/2d9dafe4.0:$(TARGET_COPY_OUT_VENDOR)/etc/security/cacerts/2d9dafe4.0 \
-    vendor/realme/RMX2020/proprietary/vendor/etc/security/cacerts/2fa87019.0:$(TARGET_COPY_OUT_VENDOR)/etc/security/cacerts/2fa87019.0 \
-    vendor/realme/RMX2020/proprietary/vendor/etc/security/cacerts/302904dd.0:$(TARGET_COPY_OUT_VENDOR)/etc/security/cacerts/302904dd.0 \
-    vendor/realme/RMX2020/proprietary/vendor/etc/security/cacerts/304d27c3.0:$(TARGET_COPY_OUT_VENDOR)/etc/security/cacerts/304d27c3.0 \
-    vendor/realme/RMX2020/proprietary/vendor/etc/security/cacerts/31188b5e.0:$(TARGET_COPY_OUT_VENDOR)/etc/security/cacerts/31188b5e.0 \
-    vendor/realme/RMX2020/proprietary/vendor/etc/security/cacerts/33ee480d.0:$(TARGET_COPY_OUT_VENDOR)/etc/security/cacerts/33ee480d.0 \
-    vendor/realme/RMX2020/proprietary/vendor/etc/security/cacerts/343eb6cb.0:$(TARGET_COPY_OUT_VENDOR)/etc/security/cacerts/343eb6cb.0 \
-    vendor/realme/RMX2020/proprietary/vendor/etc/security/cacerts/35105088.0:$(TARGET_COPY_OUT_VENDOR)/etc/security/cacerts/35105088.0 \
-    vendor/realme/RMX2020/proprietary/vendor/etc/security/cacerts/399e7759.0:$(TARGET_COPY_OUT_VENDOR)/etc/security/cacerts/399e7759.0 \
-    vendor/realme/RMX2020/proprietary/vendor/etc/security/cacerts/3a3b02ce.0:$(TARGET_COPY_OUT_VENDOR)/etc/security/cacerts/3a3b02ce.0 \
-    vendor/realme/RMX2020/proprietary/vendor/etc/security/cacerts/3ad48a91.0:$(TARGET_COPY_OUT_VENDOR)/etc/security/cacerts/3ad48a91.0 \
-    vendor/realme/RMX2020/proprietary/vendor/etc/security/cacerts/3c58f906.0:$(TARGET_COPY_OUT_VENDOR)/etc/security/cacerts/3c58f906.0 \
-    vendor/realme/RMX2020/proprietary/vendor/etc/security/cacerts/3c6676aa.0:$(TARGET_COPY_OUT_VENDOR)/etc/security/cacerts/3c6676aa.0 \
-    vendor/realme/RMX2020/proprietary/vendor/etc/security/cacerts/3c860d51.0:$(TARGET_COPY_OUT_VENDOR)/etc/security/cacerts/3c860d51.0 \
-    vendor/realme/RMX2020/proprietary/vendor/etc/security/cacerts/3c899c73.0:$(TARGET_COPY_OUT_VENDOR)/etc/security/cacerts/3c899c73.0 \
-    vendor/realme/RMX2020/proprietary/vendor/etc/security/cacerts/3c9a4d3b.0:$(TARGET_COPY_OUT_VENDOR)/etc/security/cacerts/3c9a4d3b.0 \
-    vendor/realme/RMX2020/proprietary/vendor/etc/security/cacerts/3d441de8.0:$(TARGET_COPY_OUT_VENDOR)/etc/security/cacerts/3d441de8.0 \
-    vendor/realme/RMX2020/proprietary/vendor/etc/security/cacerts/3e7271e8.0:$(TARGET_COPY_OUT_VENDOR)/etc/security/cacerts/3e7271e8.0 \
-    vendor/realme/RMX2020/proprietary/vendor/etc/security/cacerts/40dc992e.0:$(TARGET_COPY_OUT_VENDOR)/etc/security/cacerts/40dc992e.0 \
-    vendor/realme/RMX2020/proprietary/vendor/etc/security/cacerts/455f1b52.0:$(TARGET_COPY_OUT_VENDOR)/etc/security/cacerts/455f1b52.0 \
-    vendor/realme/RMX2020/proprietary/vendor/etc/security/cacerts/48a195d8.0:$(TARGET_COPY_OUT_VENDOR)/etc/security/cacerts/48a195d8.0 \
-    vendor/realme/RMX2020/proprietary/vendor/etc/security/cacerts/4be590e0.0:$(TARGET_COPY_OUT_VENDOR)/etc/security/cacerts/4be590e0.0 \
-    vendor/realme/RMX2020/proprietary/vendor/etc/security/cacerts/5046c355.0:$(TARGET_COPY_OUT_VENDOR)/etc/security/cacerts/5046c355.0 \
-    vendor/realme/RMX2020/proprietary/vendor/etc/security/cacerts/524d9b43.0:$(TARGET_COPY_OUT_VENDOR)/etc/security/cacerts/524d9b43.0 \
-    vendor/realme/RMX2020/proprietary/vendor/etc/security/cacerts/52b525c7.0:$(TARGET_COPY_OUT_VENDOR)/etc/security/cacerts/52b525c7.0 \
-    vendor/realme/RMX2020/proprietary/vendor/etc/security/cacerts/583d0756.0:$(TARGET_COPY_OUT_VENDOR)/etc/security/cacerts/583d0756.0 \
-    vendor/realme/RMX2020/proprietary/vendor/etc/security/cacerts/5a250ea7.0:$(TARGET_COPY_OUT_VENDOR)/etc/security/cacerts/5a250ea7.0 \
-    vendor/realme/RMX2020/proprietary/vendor/etc/security/cacerts/5a3f0ff8.0:$(TARGET_COPY_OUT_VENDOR)/etc/security/cacerts/5a3f0ff8.0 \
-    vendor/realme/RMX2020/proprietary/vendor/etc/security/cacerts/5acf816d.0:$(TARGET_COPY_OUT_VENDOR)/etc/security/cacerts/5acf816d.0 \
-    vendor/realme/RMX2020/proprietary/vendor/etc/security/cacerts/5cf9d536.0:$(TARGET_COPY_OUT_VENDOR)/etc/security/cacerts/5cf9d536.0 \
-    vendor/realme/RMX2020/proprietary/vendor/etc/security/cacerts/5e4e69e7.0:$(TARGET_COPY_OUT_VENDOR)/etc/security/cacerts/5e4e69e7.0 \
-    vendor/realme/RMX2020/proprietary/vendor/etc/security/cacerts/5f47b495.0:$(TARGET_COPY_OUT_VENDOR)/etc/security/cacerts/5f47b495.0 \
-    vendor/realme/RMX2020/proprietary/vendor/etc/security/cacerts/60afe812.0:$(TARGET_COPY_OUT_VENDOR)/etc/security/cacerts/60afe812.0 \
-    vendor/realme/RMX2020/proprietary/vendor/etc/security/cacerts/6187b673.0:$(TARGET_COPY_OUT_VENDOR)/etc/security/cacerts/6187b673.0 \
-    vendor/realme/RMX2020/proprietary/vendor/etc/security/cacerts/63a2c897.0:$(TARGET_COPY_OUT_VENDOR)/etc/security/cacerts/63a2c897.0 \
-    vendor/realme/RMX2020/proprietary/vendor/etc/security/cacerts/67495436.0:$(TARGET_COPY_OUT_VENDOR)/etc/security/cacerts/67495436.0 \
-    vendor/realme/RMX2020/proprietary/vendor/etc/security/cacerts/69105f4f.0:$(TARGET_COPY_OUT_VENDOR)/etc/security/cacerts/69105f4f.0 \
-    vendor/realme/RMX2020/proprietary/vendor/etc/security/cacerts/6b03dec0.0:$(TARGET_COPY_OUT_VENDOR)/etc/security/cacerts/6b03dec0.0 \
-    vendor/realme/RMX2020/proprietary/vendor/etc/security/cacerts/75680d2e.0:$(TARGET_COPY_OUT_VENDOR)/etc/security/cacerts/75680d2e.0 \
-    vendor/realme/RMX2020/proprietary/vendor/etc/security/cacerts/76579174.0:$(TARGET_COPY_OUT_VENDOR)/etc/security/cacerts/76579174.0 \
-    vendor/realme/RMX2020/proprietary/vendor/etc/security/cacerts/7892ad52.0:$(TARGET_COPY_OUT_VENDOR)/etc/security/cacerts/7892ad52.0 \
-    vendor/realme/RMX2020/proprietary/vendor/etc/security/cacerts/7999be0d.0:$(TARGET_COPY_OUT_VENDOR)/etc/security/cacerts/7999be0d.0 \
-    vendor/realme/RMX2020/proprietary/vendor/etc/security/cacerts/7a7c655d.0:$(TARGET_COPY_OUT_VENDOR)/etc/security/cacerts/7a7c655d.0 \
-    vendor/realme/RMX2020/proprietary/vendor/etc/security/cacerts/7a819ef2.0:$(TARGET_COPY_OUT_VENDOR)/etc/security/cacerts/7a819ef2.0 \
-    vendor/realme/RMX2020/proprietary/vendor/etc/security/cacerts/7c302982.0:$(TARGET_COPY_OUT_VENDOR)/etc/security/cacerts/7c302982.0 \
-    vendor/realme/RMX2020/proprietary/vendor/etc/security/cacerts/7d453d8f.0:$(TARGET_COPY_OUT_VENDOR)/etc/security/cacerts/7d453d8f.0 \
-    vendor/realme/RMX2020/proprietary/vendor/etc/security/cacerts/81b9768f.0:$(TARGET_COPY_OUT_VENDOR)/etc/security/cacerts/81b9768f.0 \
-    vendor/realme/RMX2020/proprietary/vendor/etc/security/cacerts/82223c44.0:$(TARGET_COPY_OUT_VENDOR)/etc/security/cacerts/82223c44.0 \
-    vendor/realme/RMX2020/proprietary/vendor/etc/security/cacerts/85cde254.0:$(TARGET_COPY_OUT_VENDOR)/etc/security/cacerts/85cde254.0 \
-    vendor/realme/RMX2020/proprietary/vendor/etc/security/cacerts/86212b19.0:$(TARGET_COPY_OUT_VENDOR)/etc/security/cacerts/86212b19.0 \
-    vendor/realme/RMX2020/proprietary/vendor/etc/security/cacerts/869fbf79.0:$(TARGET_COPY_OUT_VENDOR)/etc/security/cacerts/869fbf79.0 \
-    vendor/realme/RMX2020/proprietary/vendor/etc/security/cacerts/87753b0d.0:$(TARGET_COPY_OUT_VENDOR)/etc/security/cacerts/87753b0d.0 \
-    vendor/realme/RMX2020/proprietary/vendor/etc/security/cacerts/882de061.0:$(TARGET_COPY_OUT_VENDOR)/etc/security/cacerts/882de061.0 \
-    vendor/realme/RMX2020/proprietary/vendor/etc/security/cacerts/88950faa.0:$(TARGET_COPY_OUT_VENDOR)/etc/security/cacerts/88950faa.0 \
-    vendor/realme/RMX2020/proprietary/vendor/etc/security/cacerts/89c02a45.0:$(TARGET_COPY_OUT_VENDOR)/etc/security/cacerts/89c02a45.0 \
-    vendor/realme/RMX2020/proprietary/vendor/etc/security/cacerts/8d6437c3.0:$(TARGET_COPY_OUT_VENDOR)/etc/security/cacerts/8d6437c3.0 \
-    vendor/realme/RMX2020/proprietary/vendor/etc/security/cacerts/91739615.0:$(TARGET_COPY_OUT_VENDOR)/etc/security/cacerts/91739615.0 \
-    vendor/realme/RMX2020/proprietary/vendor/etc/security/cacerts/9282e51c.0:$(TARGET_COPY_OUT_VENDOR)/etc/security/cacerts/9282e51c.0 \
-    vendor/realme/RMX2020/proprietary/vendor/etc/security/cacerts/9339512a.0:$(TARGET_COPY_OUT_VENDOR)/etc/security/cacerts/9339512a.0 \
-    vendor/realme/RMX2020/proprietary/vendor/etc/security/cacerts/9479c8c3.0:$(TARGET_COPY_OUT_VENDOR)/etc/security/cacerts/9479c8c3.0 \
-    vendor/realme/RMX2020/proprietary/vendor/etc/security/cacerts/9576d26b.0:$(TARGET_COPY_OUT_VENDOR)/etc/security/cacerts/9576d26b.0 \
-    vendor/realme/RMX2020/proprietary/vendor/etc/security/cacerts/95aff9e3.0:$(TARGET_COPY_OUT_VENDOR)/etc/security/cacerts/95aff9e3.0 \
-    vendor/realme/RMX2020/proprietary/vendor/etc/security/cacerts/9685a493.0:$(TARGET_COPY_OUT_VENDOR)/etc/security/cacerts/9685a493.0 \
-    vendor/realme/RMX2020/proprietary/vendor/etc/security/cacerts/9772ca32.0:$(TARGET_COPY_OUT_VENDOR)/etc/security/cacerts/9772ca32.0 \
-    vendor/realme/RMX2020/proprietary/vendor/etc/security/cacerts/985c1f52.0:$(TARGET_COPY_OUT_VENDOR)/etc/security/cacerts/985c1f52.0 \
-    vendor/realme/RMX2020/proprietary/vendor/etc/security/cacerts/9d6523ce.0:$(TARGET_COPY_OUT_VENDOR)/etc/security/cacerts/9d6523ce.0 \
-    vendor/realme/RMX2020/proprietary/vendor/etc/security/cacerts/9f533518.0:$(TARGET_COPY_OUT_VENDOR)/etc/security/cacerts/9f533518.0 \
-    vendor/realme/RMX2020/proprietary/vendor/etc/security/cacerts/a2c66da8.0:$(TARGET_COPY_OUT_VENDOR)/etc/security/cacerts/a2c66da8.0 \
-    vendor/realme/RMX2020/proprietary/vendor/etc/security/cacerts/a3896b44.0:$(TARGET_COPY_OUT_VENDOR)/etc/security/cacerts/a3896b44.0 \
-    vendor/realme/RMX2020/proprietary/vendor/etc/security/cacerts/a7605362.0:$(TARGET_COPY_OUT_VENDOR)/etc/security/cacerts/a7605362.0 \
-    vendor/realme/RMX2020/proprietary/vendor/etc/security/cacerts/a7d2cf64.0:$(TARGET_COPY_OUT_VENDOR)/etc/security/cacerts/a7d2cf64.0 \
-    vendor/realme/RMX2020/proprietary/vendor/etc/security/cacerts/a81e292b.0:$(TARGET_COPY_OUT_VENDOR)/etc/security/cacerts/a81e292b.0 \
-    vendor/realme/RMX2020/proprietary/vendor/etc/security/cacerts/ab5346f4.0:$(TARGET_COPY_OUT_VENDOR)/etc/security/cacerts/ab5346f4.0 \
-    vendor/realme/RMX2020/proprietary/vendor/etc/security/cacerts/ab59055e.0:$(TARGET_COPY_OUT_VENDOR)/etc/security/cacerts/ab59055e.0 \
-    vendor/realme/RMX2020/proprietary/vendor/etc/security/cacerts/aeb67534.0:$(TARGET_COPY_OUT_VENDOR)/etc/security/cacerts/aeb67534.0 \
-    vendor/realme/RMX2020/proprietary/vendor/etc/security/cacerts/b0ed035a.0:$(TARGET_COPY_OUT_VENDOR)/etc/security/cacerts/b0ed035a.0 \
-    vendor/realme/RMX2020/proprietary/vendor/etc/security/cacerts/b0f3e76e.0:$(TARGET_COPY_OUT_VENDOR)/etc/security/cacerts/b0f3e76e.0 \
-    vendor/realme/RMX2020/proprietary/vendor/etc/security/cacerts/b3fb433b.0:$(TARGET_COPY_OUT_VENDOR)/etc/security/cacerts/b3fb433b.0 \
-    vendor/realme/RMX2020/proprietary/vendor/etc/security/cacerts/b74d2bd5.0:$(TARGET_COPY_OUT_VENDOR)/etc/security/cacerts/b74d2bd5.0 \
-    vendor/realme/RMX2020/proprietary/vendor/etc/security/cacerts/b7db1890.0:$(TARGET_COPY_OUT_VENDOR)/etc/security/cacerts/b7db1890.0 \
-    vendor/realme/RMX2020/proprietary/vendor/etc/security/cacerts/b872f2b4.0:$(TARGET_COPY_OUT_VENDOR)/etc/security/cacerts/b872f2b4.0 \
-    vendor/realme/RMX2020/proprietary/vendor/etc/security/cacerts/b936d1c6.0:$(TARGET_COPY_OUT_VENDOR)/etc/security/cacerts/b936d1c6.0 \
-    vendor/realme/RMX2020/proprietary/vendor/etc/security/cacerts/bc3f2570.0:$(TARGET_COPY_OUT_VENDOR)/etc/security/cacerts/bc3f2570.0 \
-    vendor/realme/RMX2020/proprietary/vendor/etc/security/cacerts/bd43e1dd.0:$(TARGET_COPY_OUT_VENDOR)/etc/security/cacerts/bd43e1dd.0 \
-    vendor/realme/RMX2020/proprietary/vendor/etc/security/cacerts/bdacca6f.0:$(TARGET_COPY_OUT_VENDOR)/etc/security/cacerts/bdacca6f.0 \
-    vendor/realme/RMX2020/proprietary/vendor/etc/security/cacerts/bf64f35b.0:$(TARGET_COPY_OUT_VENDOR)/etc/security/cacerts/bf64f35b.0 \
-    vendor/realme/RMX2020/proprietary/vendor/etc/security/cacerts/c2c1704e.0:$(TARGET_COPY_OUT_VENDOR)/etc/security/cacerts/c2c1704e.0 \
-    vendor/realme/RMX2020/proprietary/vendor/etc/security/cacerts/c491639e.0:$(TARGET_COPY_OUT_VENDOR)/etc/security/cacerts/c491639e.0 \
-    vendor/realme/RMX2020/proprietary/vendor/etc/security/cacerts/c51c224c.0:$(TARGET_COPY_OUT_VENDOR)/etc/security/cacerts/c51c224c.0 \
-    vendor/realme/RMX2020/proprietary/vendor/etc/security/cacerts/c559d742.0:$(TARGET_COPY_OUT_VENDOR)/etc/security/cacerts/c559d742.0 \
-    vendor/realme/RMX2020/proprietary/vendor/etc/security/cacerts/c7e2a638.0:$(TARGET_COPY_OUT_VENDOR)/etc/security/cacerts/c7e2a638.0 \
-    vendor/realme/RMX2020/proprietary/vendor/etc/security/cacerts/c907e29b.0:$(TARGET_COPY_OUT_VENDOR)/etc/security/cacerts/c907e29b.0 \
-    vendor/realme/RMX2020/proprietary/vendor/etc/security/cacerts/c90bc37d.0:$(TARGET_COPY_OUT_VENDOR)/etc/security/cacerts/c90bc37d.0 \
-    vendor/realme/RMX2020/proprietary/vendor/etc/security/cacerts/cb156124.0:$(TARGET_COPY_OUT_VENDOR)/etc/security/cacerts/cb156124.0 \
-    vendor/realme/RMX2020/proprietary/vendor/etc/security/cacerts/cb1c3204.0:$(TARGET_COPY_OUT_VENDOR)/etc/security/cacerts/cb1c3204.0 \
-    vendor/realme/RMX2020/proprietary/vendor/etc/security/cacerts/ccc52f49.0:$(TARGET_COPY_OUT_VENDOR)/etc/security/cacerts/ccc52f49.0 \
-    vendor/realme/RMX2020/proprietary/vendor/etc/security/cacerts/cf701eeb.0:$(TARGET_COPY_OUT_VENDOR)/etc/security/cacerts/cf701eeb.0 \
-    vendor/realme/RMX2020/proprietary/vendor/etc/security/cacerts/d06393bb.0:$(TARGET_COPY_OUT_VENDOR)/etc/security/cacerts/d06393bb.0 \
-    vendor/realme/RMX2020/proprietary/vendor/etc/security/cacerts/d0cddf45.0:$(TARGET_COPY_OUT_VENDOR)/etc/security/cacerts/d0cddf45.0 \
-    vendor/realme/RMX2020/proprietary/vendor/etc/security/cacerts/d16a5865.0:$(TARGET_COPY_OUT_VENDOR)/etc/security/cacerts/d16a5865.0 \
-    vendor/realme/RMX2020/proprietary/vendor/etc/security/cacerts/d18e9066.0:$(TARGET_COPY_OUT_VENDOR)/etc/security/cacerts/d18e9066.0 \
-    vendor/realme/RMX2020/proprietary/vendor/etc/security/cacerts/d41b5e2a.0:$(TARGET_COPY_OUT_VENDOR)/etc/security/cacerts/d41b5e2a.0 \
-    vendor/realme/RMX2020/proprietary/vendor/etc/security/cacerts/d4c339cb.0:$(TARGET_COPY_OUT_VENDOR)/etc/security/cacerts/d4c339cb.0 \
-    vendor/realme/RMX2020/proprietary/vendor/etc/security/cacerts/d59297b8.0:$(TARGET_COPY_OUT_VENDOR)/etc/security/cacerts/d59297b8.0 \
-    vendor/realme/RMX2020/proprietary/vendor/etc/security/cacerts/d7746a63.0:$(TARGET_COPY_OUT_VENDOR)/etc/security/cacerts/d7746a63.0 \
-    vendor/realme/RMX2020/proprietary/vendor/etc/security/cacerts/da7377f6.0:$(TARGET_COPY_OUT_VENDOR)/etc/security/cacerts/da7377f6.0 \
-    vendor/realme/RMX2020/proprietary/vendor/etc/security/cacerts/dbc54cab.0:$(TARGET_COPY_OUT_VENDOR)/etc/security/cacerts/dbc54cab.0 \
-    vendor/realme/RMX2020/proprietary/vendor/etc/security/cacerts/dbff3a01.0:$(TARGET_COPY_OUT_VENDOR)/etc/security/cacerts/dbff3a01.0 \
-    vendor/realme/RMX2020/proprietary/vendor/etc/security/cacerts/dc99f41e.0:$(TARGET_COPY_OUT_VENDOR)/etc/security/cacerts/dc99f41e.0 \
-    vendor/realme/RMX2020/proprietary/vendor/etc/security/cacerts/dfc0fe80.0:$(TARGET_COPY_OUT_VENDOR)/etc/security/cacerts/dfc0fe80.0 \
-    vendor/realme/RMX2020/proprietary/vendor/etc/security/cacerts/e442e424.0:$(TARGET_COPY_OUT_VENDOR)/etc/security/cacerts/e442e424.0 \
-    vendor/realme/RMX2020/proprietary/vendor/etc/security/cacerts/e48193cf.0:$(TARGET_COPY_OUT_VENDOR)/etc/security/cacerts/e48193cf.0 \
-    vendor/realme/RMX2020/proprietary/vendor/etc/security/cacerts/e775ed2d.0:$(TARGET_COPY_OUT_VENDOR)/etc/security/cacerts/e775ed2d.0 \
-    vendor/realme/RMX2020/proprietary/vendor/etc/security/cacerts/e8651083.0:$(TARGET_COPY_OUT_VENDOR)/etc/security/cacerts/e8651083.0 \
-    vendor/realme/RMX2020/proprietary/vendor/etc/security/cacerts/ed39abd0.0:$(TARGET_COPY_OUT_VENDOR)/etc/security/cacerts/ed39abd0.0 \
-    vendor/realme/RMX2020/proprietary/vendor/etc/security/cacerts/f013ecaf.0:$(TARGET_COPY_OUT_VENDOR)/etc/security/cacerts/f013ecaf.0 \
-    vendor/realme/RMX2020/proprietary/vendor/etc/security/cacerts/f0cd152c.0:$(TARGET_COPY_OUT_VENDOR)/etc/security/cacerts/f0cd152c.0 \
-    vendor/realme/RMX2020/proprietary/vendor/etc/security/cacerts/f459871d.0:$(TARGET_COPY_OUT_VENDOR)/etc/security/cacerts/f459871d.0 \
-    vendor/realme/RMX2020/proprietary/vendor/etc/security/cacerts/facacbc6.0:$(TARGET_COPY_OUT_VENDOR)/etc/security/cacerts/facacbc6.0 \
-    vendor/realme/RMX2020/proprietary/vendor/etc/security/cacerts/fb5fa911.0:$(TARGET_COPY_OUT_VENDOR)/etc/security/cacerts/fb5fa911.0 \
-    vendor/realme/RMX2020/proprietary/vendor/etc/security/cacerts/fd08c599.0:$(TARGET_COPY_OUT_VENDOR)/etc/security/cacerts/fd08c599.0 \
-    vendor/realme/RMX2020/proprietary/vendor/etc/security/cacerts/fde84897.0:$(TARGET_COPY_OUT_VENDOR)/etc/security/cacerts/fde84897.0 \
-    vendor/realme/RMX2020/proprietary/vendor/etc/security/cacerts_supl/111e6273.0:$(TARGET_COPY_OUT_VENDOR)/etc/security/cacerts_supl/111e6273.0 \
-    vendor/realme/RMX2020/proprietary/vendor/etc/security/cacerts_supl/3ad48a91.0:$(TARGET_COPY_OUT_VENDOR)/etc/security/cacerts_supl/3ad48a91.0 \
-    vendor/realme/RMX2020/proprietary/vendor/etc/security/cacerts_supl/7651b327.0:$(TARGET_COPY_OUT_VENDOR)/etc/security/cacerts_supl/7651b327.0 \
-    vendor/realme/RMX2020/proprietary/vendor/etc/security/cacerts_supl/c542733d.0:$(TARGET_COPY_OUT_VENDOR)/etc/security/cacerts_supl/c542733d.0 \
-    vendor/realme/RMX2020/proprietary/vendor/etc/security/cacerts_supl/f336e3d1.0:$(TARGET_COPY_OUT_VENDOR)/etc/security/cacerts_supl/f336e3d1.0 \
-    vendor/realme/RMX2020/proprietary/vendor/etc/security/cacerts_supl/lab/18dc3a8d.0:$(TARGET_COPY_OUT_VENDOR)/etc/security/cacerts_supl/lab/18dc3a8d.0 \
-    vendor/realme/RMX2020/proprietary/vendor/etc/security/cacerts_supl/lab/1bc5ca0c.0:$(TARGET_COPY_OUT_VENDOR)/etc/security/cacerts_supl/lab/1bc5ca0c.0 \
-    vendor/realme/RMX2020/proprietary/vendor/etc/security/cacerts_supl/lab/1bc5ca0c.1:$(TARGET_COPY_OUT_VENDOR)/etc/security/cacerts_supl/lab/1bc5ca0c.1 \
-    vendor/realme/RMX2020/proprietary/vendor/etc/security/cacerts_supl/lab/2cbfcc3a.0:$(TARGET_COPY_OUT_VENDOR)/etc/security/cacerts_supl/lab/2cbfcc3a.0 \
-    vendor/realme/RMX2020/proprietary/vendor/etc/security/cacerts_supl/lab/35ef1c14.0:$(TARGET_COPY_OUT_VENDOR)/etc/security/cacerts_supl/lab/35ef1c14.0 \
-    vendor/realme/RMX2020/proprietary/vendor/etc/security/cacerts_supl/lab/35ef1c14.1:$(TARGET_COPY_OUT_VENDOR)/etc/security/cacerts_supl/lab/35ef1c14.1 \
-    vendor/realme/RMX2020/proprietary/vendor/etc/security/cacerts_supl/lab/35ef1c14.2:$(TARGET_COPY_OUT_VENDOR)/etc/security/cacerts_supl/lab/35ef1c14.2 \
-    vendor/realme/RMX2020/proprietary/vendor/etc/security/cacerts_supl/lab/35ef1c14.3:$(TARGET_COPY_OUT_VENDOR)/etc/security/cacerts_supl/lab/35ef1c14.3 \
-    vendor/realme/RMX2020/proprietary/vendor/etc/security/cacerts_supl/lab/35ef1c14.4:$(TARGET_COPY_OUT_VENDOR)/etc/security/cacerts_supl/lab/35ef1c14.4 \
-    vendor/realme/RMX2020/proprietary/vendor/etc/security/cacerts_supl/lab/35ef1c14.5:$(TARGET_COPY_OUT_VENDOR)/etc/security/cacerts_supl/lab/35ef1c14.5 \
-    vendor/realme/RMX2020/proprietary/vendor/etc/security/cacerts_supl/lab/35ef1c14.6:$(TARGET_COPY_OUT_VENDOR)/etc/security/cacerts_supl/lab/35ef1c14.6 \
-    vendor/realme/RMX2020/proprietary/vendor/etc/security/cacerts_supl/lab/35ef1c14.7:$(TARGET_COPY_OUT_VENDOR)/etc/security/cacerts_supl/lab/35ef1c14.7 \
-    vendor/realme/RMX2020/proprietary/vendor/etc/security/cacerts_supl/lab/586933d9.0:$(TARGET_COPY_OUT_VENDOR)/etc/security/cacerts_supl/lab/586933d9.0 \
-    vendor/realme/RMX2020/proprietary/vendor/etc/security/cacerts_supl/lab/66272d0d.0:$(TARGET_COPY_OUT_VENDOR)/etc/security/cacerts_supl/lab/66272d0d.0 \
-    vendor/realme/RMX2020/proprietary/vendor/etc/security/cacerts_supl/lab/6f1dbe5e.0:$(TARGET_COPY_OUT_VENDOR)/etc/security/cacerts_supl/lab/6f1dbe5e.0 \
-    vendor/realme/RMX2020/proprietary/vendor/etc/security/cacerts_supl/lab/b5805141.0:$(TARGET_COPY_OUT_VENDOR)/etc/security/cacerts_supl/lab/b5805141.0 \
-    vendor/realme/RMX2020/proprietary/vendor/etc/security/cacerts_supl/lab/b805b58a.0:$(TARGET_COPY_OUT_VENDOR)/etc/security/cacerts_supl/lab/b805b58a.0 \
-    vendor/realme/RMX2020/proprietary/vendor/etc/security/cacerts_supl/lab/ed7b215e.0:$(TARGET_COPY_OUT_VENDOR)/etc/security/cacerts_supl/lab/ed7b215e.0 \
-    vendor/realme/RMX2020/proprietary/vendor/etc/security/cacerts_supl/lab/ef4b31e6.0:$(TARGET_COPY_OUT_VENDOR)/etc/security/cacerts_supl/lab/ef4b31e6.0 \
     vendor/realme/RMX2020/proprietary/vendor/etc/slp_conf:$(TARGET_COPY_OUT_VENDOR)/etc/slp_conf \
     vendor/realme/RMX2020/proprietary/vendor/etc/smsdbvisitor.xml:$(TARGET_COPY_OUT_VENDOR)/etc/smsdbvisitor.xml \
     vendor/realme/RMX2020/proprietary/vendor/etc/special_pws_channel.xml:$(TARGET_COPY_OUT_VENDOR)/etc/special_pws_channel.xml \
@@ -1325,6 +1003,7 @@ PRODUCT_COPY_FILES += \
     vendor/realme/RMX2020/proprietary/vendor/lib64/hw/vendor.mediatek.hardware.mtkcodecservice@1.1-impl.so:$(TARGET_COPY_OUT_VENDOR)/lib64/hw/vendor.mediatek.hardware.mtkcodecservice@1.1-impl.so \
     vendor/realme/RMX2020/proprietary/vendor/lib64/hw/vendor.mediatek.hardware.nvram@1.1-impl.so:$(TARGET_COPY_OUT_VENDOR)/lib64/hw/vendor.mediatek.hardware.nvram@1.1-impl.so \
     vendor/realme/RMX2020/proprietary/vendor/lib64/hw/vendor.mediatek.hardware.pq@2.6-impl.so:$(TARGET_COPY_OUT_VENDOR)/lib64/hw/vendor.mediatek.hardware.pq@2.6-impl.so \
+    vendor/realme/RMX2020/proprietary/vendor/lib64/hw/vendor.mediatek.hardware.videotelephony@1.0-impl.so:$(TARGET_COPY_OUT_VENDOR)/lib64/hw/vendor.mediatek.hardware.videotelephony@1.0-impl.so \
     vendor/realme/RMX2020/proprietary/vendor/lib64/lbs_hidl_service-impl.so:$(TARGET_COPY_OUT_VENDOR)/lib64/lbs_hidl_service-impl.so \
     vendor/realme/RMX2020/proprietary/vendor/lib64/lib3a.ae.core.so:$(TARGET_COPY_OUT_VENDOR)/lib64/lib3a.ae.core.so \
     vendor/realme/RMX2020/proprietary/vendor/lib64/lib3a.ae.so:$(TARGET_COPY_OUT_VENDOR)/lib64/lib3a.ae.so \
@@ -1751,6 +1430,7 @@ PRODUCT_COPY_FILES += \
     vendor/realme/RMX2020/proprietary/vendor/lib64/vendor.mediatek.hardware.pq@2.4.so:$(TARGET_COPY_OUT_VENDOR)/lib64/vendor.mediatek.hardware.pq@2.4.so \
     vendor/realme/RMX2020/proprietary/vendor/lib64/vendor.mediatek.hardware.pq@2.5.so:$(TARGET_COPY_OUT_VENDOR)/lib64/vendor.mediatek.hardware.pq@2.5.so \
     vendor/realme/RMX2020/proprietary/vendor/lib64/vendor.mediatek.hardware.pq@2.6.so:$(TARGET_COPY_OUT_VENDOR)/lib64/vendor.mediatek.hardware.pq@2.6.so \
+    vendor/realme/RMX2020/proprietary/vendor/lib64/vendor.mediatek.hardware.videotelephony@1.0.so:$(TARGET_COPY_OUT_VENDOR)/lib64/vendor.mediatek.hardware.videotelephony@1.0.so \
     vendor/realme/RMX2020/proprietary/vendor/lib64/vendor.trustonic.tee.tui@1.0.so:$(TARGET_COPY_OUT_VENDOR)/lib64/vendor.trustonic.tee.tui@1.0.so \
     vendor/realme/RMX2020/proprietary/vendor/lib64/vendor.trustonic.tee@1.0.so:$(TARGET_COPY_OUT_VENDOR)/lib64/vendor.trustonic.tee@1.0.so \
     vendor/realme/RMX2020/proprietary/vendor/lib64/vendor.trustonic.tee@1.1.so:$(TARGET_COPY_OUT_VENDOR)/lib64/vendor.trustonic.tee@1.1.so \
@@ -1758,8 +1438,6 @@ PRODUCT_COPY_FILES += \
     vendor/realme/RMX2020/proprietary/vendor/lib64/victor_s5k3p9sp_mipi_raw_tuning.so:$(TARGET_COPY_OUT_VENDOR)/lib64/victor_s5k3p9sp_mipi_raw_tuning.so
 
 PRODUCT_PACKAGES += \
-    vendor.mediatek.hardware.videotelephony@1.0-impl \
-    vendor.mediatek.hardware.videotelephony@1.0 \
     libcomutils \
     libimsma \
     libimsma_adapt \
@@ -1775,10 +1453,9 @@ PRODUCT_PACKAGES += \
     libvt_avsync \
     vendor.mediatek.hardware.videotelephony-V1-ndk \
     vendor.mediatek.hardware.videotelephony@1.0.system_ext \
-    vendor.mediatek.hardware.gpu@1.0-service \
-    android.hardware.neuralnetworks@1.3-service-mtk-gpu \
-    manifest_android.hardware.drm@1.4-service.widevine \
-    oplus_appradio_device_manifest \
-    oplus_radio_device_manifest \
-    vtservice_hidl \
+    android.hardware.neuralnetworks@1.3-service-mtk-gpu.xml \
+    manifest_android.hardware.drm@1.4-service.widevine.xml \
+    oplus_appradio_device_manifest.xml \
+    oplus_radio_device_manifest.xml \
+    vendor.mediatek.hardware.gpu@1.0-service.xml \
     vtservice
