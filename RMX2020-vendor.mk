@@ -110,6 +110,7 @@ PRODUCT_COPY_FILES += \
     vendor/realme/RMX2020/proprietary/odm/etc/audio/oplus_audio_features.xml:$(TARGET_COPY_OUT_ODM)/etc/audio/oplus_audio_features.xml \
     vendor/realme/RMX2020/proprietary/odm/etc/audio/test_path/common/mixer_paths.xml:$(TARGET_COPY_OUT_ODM)/etc/audio/test_path/common/mixer_paths.xml \
     vendor/realme/RMX2020/proprietary/odm/etc/audio/test_path/mixer_paths.xml:$(TARGET_COPY_OUT_ODM)/etc/audio/test_path/mixer_paths.xml \
+    vendor/realme/RMX2020/proprietary/odm/etc/init/camerasloganserver.rc:$(TARGET_COPY_OUT_ODM)/etc/init/camerasloganserver.rc \
     vendor/realme/RMX2020/proprietary/odm/etc/init/vendor.oplus.hardware.biometrics.fingerprint@2.1-service.rc:$(TARGET_COPY_OUT_ODM)/etc/init/vendor.oplus.hardware.biometrics.fingerprint@2.1-service.rc \
     vendor/realme/RMX2020/proprietary/odm/vendor/app/mcRegistry/030b0000000000000000000000000000.drbin:$(TARGET_COPY_OUT_ODM)/vendor/app/mcRegistry/030b0000000000000000000000000000.drbin \
     vendor/realme/RMX2020/proprietary/odm/vendor/app/mcRegistry/030b0000000000000000000000000000.tlbin:$(TARGET_COPY_OUT_ODM)/vendor/app/mcRegistry/030b0000000000000000000000000000.tlbin \
@@ -266,14 +267,9 @@ PRODUCT_COPY_FILES += \
     vendor/realme/RMX2020/proprietary/vendor/etc/audio_param/Volume_ParamUnitDesc.xml:$(TARGET_COPY_OUT_VENDOR)/etc/audio_param/Volume_ParamUnitDesc.xml \
     vendor/realme/RMX2020/proprietary/vendor/etc/aurisys_config.xml:$(TARGET_COPY_OUT_VENDOR)/etc/aurisys_config.xml \
     vendor/realme/RMX2020/proprietary/vendor/etc/aurisys_param/Speech_AudioParam.xml:$(TARGET_COPY_OUT_VENDOR)/etc/aurisys_param/Speech_AudioParam.xml \
+    vendor/realme/RMX2020/proprietary/vendor/etc/camera/Arc_wdc_calib.bin:$(TARGET_COPY_OUT_VENDOR)/etc/camera/Arc_wdc_calib.bin \
+    vendor/realme/RMX2020/proprietary/vendor/etc/camera/M_Attribute_AG_BMW_1.1.0.model:$(TARGET_COPY_OUT_VENDOR)/etc/camera/M_Attribute_AG_BMW_1.1.0.model \
     vendor/realme/RMX2020/proprietary/vendor/etc/ecc_list.xml:$(TARGET_COPY_OUT_VENDOR)/etc/ecc_list.xml \
-    vendor/realme/RMX2020/proprietary/vendor/etc/ecc_list_OP01.xml:$(TARGET_COPY_OUT_VENDOR)/etc/ecc_list_OP01.xml \
-    vendor/realme/RMX2020/proprietary/vendor/etc/ecc_list_OP02.xml:$(TARGET_COPY_OUT_VENDOR)/etc/ecc_list_OP02.xml \
-    vendor/realme/RMX2020/proprietary/vendor/etc/ecc_list_OP09.xml:$(TARGET_COPY_OUT_VENDOR)/etc/ecc_list_OP09.xml \
-    vendor/realme/RMX2020/proprietary/vendor/etc/ecc_list_OP12.xml:$(TARGET_COPY_OUT_VENDOR)/etc/ecc_list_OP12.xml \
-    vendor/realme/RMX2020/proprietary/vendor/etc/ecc_list_OP17.xml:$(TARGET_COPY_OUT_VENDOR)/etc/ecc_list_OP17.xml \
-    vendor/realme/RMX2020/proprietary/vendor/etc/ecc_list_OP18.xml:$(TARGET_COPY_OUT_VENDOR)/etc/ecc_list_OP18.xml \
-    vendor/realme/RMX2020/proprietary/vendor/etc/ecc_list_OP20.xml:$(TARGET_COPY_OUT_VENDOR)/etc/ecc_list_OP20.xml \
     vendor/realme/RMX2020/proprietary/vendor/etc/ecc_list_preference.xml:$(TARGET_COPY_OUT_VENDOR)/etc/ecc_list_preference.xml \
     vendor/realme/RMX2020/proprietary/vendor/etc/gnss/agps_profiles_conf2.xml:$(TARGET_COPY_OUT_VENDOR)/etc/gnss/agps_profiles_conf2.xml \
     vendor/realme/RMX2020/proprietary/vendor/etc/gnss/carrier/agps_profiles_conf2_carrier_ATnT_Mexico.xml:$(TARGET_COPY_OUT_VENDOR)/etc/gnss/carrier/agps_profiles_conf2_carrier_ATnT_Mexico.xml \
@@ -298,7 +294,6 @@ PRODUCT_COPY_FILES += \
     vendor/realme/RMX2020/proprietary/vendor/etc/init/android.hardware.keymaster@4.0-service.trustonic.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/android.hardware.keymaster@4.0-service.trustonic.rc \
     vendor/realme/RMX2020/proprietary/vendor/etc/init/android.hardware.neuralnetworks@1.3-service-mtk-neuron.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/android.hardware.neuralnetworks@1.3-service-mtk-neuron.rc \
     vendor/realme/RMX2020/proprietary/vendor/etc/init/android.hardware.secure_element@1.2-service-mediatek.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/android.hardware.secure_element@1.2-service-mediatek.rc \
-    vendor/realme/RMX2020/proprietary/vendor/etc/init/android.hardware.sensors@2.0-service-mediatek.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/android.hardware.sensors@2.0-service-mediatek.rc \
     vendor/realme/RMX2020/proprietary/vendor/etc/init/camerahalserver.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/camerahalserver.rc \
     vendor/realme/RMX2020/proprietary/vendor/etc/init/fuelgauged_init.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/fuelgauged_init.rc \
     vendor/realme/RMX2020/proprietary/vendor/etc/init/fuelgauged_nvram_init.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/fuelgauged_nvram_init.rc \
@@ -337,7 +332,6 @@ PRODUCT_COPY_FILES += \
     vendor/realme/RMX2020/proprietary/vendor/etc/init/vendor.mediatek.hardware.aee@1.0-service.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/vendor.mediatek.hardware.aee@1.0-service.rc \
     vendor/realme/RMX2020/proprietary/vendor/etc/init/vendor.mediatek.hardware.dfps@1.0-service.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/vendor.mediatek.hardware.dfps@1.0-service.rc \
     vendor/realme/RMX2020/proprietary/vendor/etc/init/vendor.mediatek.hardware.gpu@1.0-service.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/vendor.mediatek.hardware.gpu@1.0-service.rc \
-    vendor/realme/RMX2020/proprietary/vendor/etc/init/vendor.mediatek.hardware.keymaster_attestation@1.1-service.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/vendor.mediatek.hardware.keymaster_attestation@1.1-service.rc \
     vendor/realme/RMX2020/proprietary/vendor/etc/init/vendor.mediatek.hardware.mms@1.5-service.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/vendor.mediatek.hardware.mms@1.5-service.rc \
     vendor/realme/RMX2020/proprietary/vendor/etc/init/vendor.mediatek.hardware.mtkcodecservice@1.1-service.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/vendor.mediatek.hardware.mtkcodecservice@1.1-service.rc \
     vendor/realme/RMX2020/proprietary/vendor/etc/init/vendor.mediatek.hardware.nvram@1.1-sevice.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/vendor.mediatek.hardware.nvram@1.1-sevice.rc \
@@ -431,7 +425,6 @@ PRODUCT_PACKAGES += \
     vendor.mediatek.hardware.camera.bgservice@1.1-impl \
     vendor.mediatek.hardware.camera.isphal@1.0-impl \
     vendor.mediatek.hardware.dfps@1.0-impl \
-    vendor.mediatek.hardware.keymaster_attestation@1.1-impl \
     vendor.mediatek.hardware.mms@1.5-impl \
     vendor.mediatek.hardware.mtkcodecservice@1.1-impl \
     vendor.mediatek.hardware.nvram@1.1-impl \
@@ -454,7 +447,6 @@ PRODUCT_PACKAGES += \
     libJpgEncPipe \
     libMcClient \
     libMtkOmxCore \
-    libMtkSpeechEnh \
     libNoFpsActor \
     libOpenCL \
     libPolarrRender \
@@ -469,10 +461,7 @@ PRODUCT_PACKAGES += \
     libTEECommon \
     libVDPostureDetection \
     libWaterMark \
-    lib_aurisys_lvimfs \
     lib_bsscore \
-    lib_iir \
-    lib_speech_enh \
     libaal_cust \
     libaal_key \
     libaal_mtk \
@@ -484,9 +473,6 @@ PRODUCT_PACKAGES += \
     libarcsoft_dualcam_refocus_preview \
     libarcsoft_dualcam_refocus_right \
     libarcsoft_lensstaindetection \
-    libaurisysdemo \
-    libbessound_hd_mtk_vendor \
-    libblisrc32_vendor \
     libbluetooth_audio_session_mediatek \
     libbluetooth_hw_test \
     libbluetooth_mtk \
@@ -541,7 +527,6 @@ PRODUCT_PACKAGES += \
     libcurl_xcap_md \
     libcustom_nvram \
     libcvface_api \
-    libcvsd_mtk \
     libdpframework \
     libeffecthal.base \
     libfeature.face \
@@ -576,25 +561,14 @@ PRODUCT_PACKAGES += \
     libispcameraca \
     libjpeg-alpha-oal_vendor \
     libjpeg-alpha_vendor \
-    libktvdrc \
-    libktveffect \
-    libktveffect_rec \
-    libktveq \
-    libktvns \
-    libktvreverb \
-    libktvsoundtouch \
-    libktvvolume \
     libladder \
     liblpcnr \
-    liblvimfs \
-    liblvimfs_wrapper \
     libmemsic \
     libmfllcore \
     libminiui \
     libmmprofile \
     libmnetlink_v104 \
     libmpbase \
-    libmsbc_mtk \
     libmsnr \
     libmtcloader \
     libmtk_drvb \
@@ -638,11 +612,9 @@ PRODUCT_PACKAGES += \
     libmtkcutils \
     libmtkhardware_legacy \
     libmtkisp_metadata \
-    libmtklimiter_vendor \
     libmtknetutils \
     libmtkproperty \
     libmtkrillog \
-    libmtkshifter_vendor \
     libmtksysutils \
     libnvram \
     libnvram_daemon_callback \
@@ -656,8 +628,6 @@ PRODUCT_PACKAGES += \
     libpq_prot \
     librgbwlightsensor \
     libsimaka \
-    libspeech_enh_lib \
-    libspeechparser_vendor \
     libssl-ss \
     libstagefrighthw \
     libstereoinfoaccessor_vsdof \
@@ -667,6 +637,7 @@ PRODUCT_PACKAGES += \
     libtflite_mtk \
     libtflite_mtk_static_R \
     libthha \
+    libutils-v30 \
     libutinterface_custom_md \
     libutinterface_md \
     libvcodec_oal \
@@ -763,6 +734,10 @@ PRODUCT_PACKAGES += \
     libMtkOmxVdecEx \
     libMtkOmxVenc \
     libMtkOmxWmaDec \
+    libMtkSpeechEnh \
+    lib_aurisys_lvimfs \
+    lib_iir \
+    lib_speech_enh \
     libalsautils-mtk \
     libaudio_engineer_test \
     libaudio_param_parser-vnd \
@@ -776,16 +751,35 @@ PRODUCT_PACKAGES += \
     libaudioloudc \
     libaudioprimarydevicehalifclient \
     libaudiotoolkit_vendor \
+    libaurisysdemo \
+    libbessound_hd_mtk_vendor \
+    libblisrc32_vendor \
+    libcvsd_mtk \
     libfgauge_gm30 \
     libh264dec_customize \
     libh264dec_sa.ca7 \
     libh264dec_sd.ca7 \
     libh264dec_se.ca7 \
     libh264enc_sa.ca7 \
+    libktvdrc \
+    libktveffect \
+    libktveffect_rec \
+    libktveq \
+    libktvns \
+    libktvreverb \
+    libktvsoundtouch \
+    libktvvolume \
+    liblvimfs \
+    liblvimfs_wrapper \
     libmnl \
     libmp4enc_sa.ca7 \
     libmp4enc_xa.ca7 \
+    libmsbc_mtk \
+    libmtklimiter_vendor \
+    libmtkshifter_vendor \
     liboplus_audio_config \
+    libspeech_enh_lib \
+    libspeechparser_vendor \
     libstorage_otp \
     libthermalalgo \
     libtinyxml \
@@ -885,7 +879,6 @@ PRODUCT_PACKAGES += \
     librilfusion \
     libsensor_custom \
     libudf \
-    libutils-v30 \
     libwifitest \
     libwvhidl \
     libwvdrmengine \
@@ -904,7 +897,6 @@ PRODUCT_PACKAGES += \
     vendor.trustonic.tee.tui@1.0 \
     vendor.trustonic.tee@1.0 \
     vendor.trustonic.tee@1.1 \
-    vendor.oplus.hardware.camera.slogan@1.0 \
     libcomutils \
     libimsma \
     libimsma_adapt \
@@ -925,6 +917,7 @@ PRODUCT_PACKAGES += \
     fingerprint.goodix_G5.default \
     fingerprint.goodix_G6.default \
     fingerprint.silead.default \
+    vendor.oplus.hardware.camera.slogan@1.0-impl \
     libRbsFlow \
     libRbsFlow_cap \
     libgf_hal_G2 \
@@ -937,6 +930,7 @@ PRODUCT_PACKAGES += \
     vendor.oplus.hardware.appradio@1.0 \
     vendor.oplus.hardware.biometrics.fingerprint@2.1_odm \
     vendor.oplus.hardware.biometrics.fingerprintservice@1.0 \
+    vendor.oplus.hardware.camera.slogan@1.0 \
     vendor.oplus.hardware.commondcs@1.0 \
     vendor.oplus.hardware.orms@1.0 \
     vendor.oplus.hardware.radio@1.0 \
@@ -947,6 +941,7 @@ PRODUCT_PACKAGES += \
     oplus_appradio_device_manifest.xml \
     oplus_radio_device_manifest.xml \
     vendor.mediatek.hardware.gpu@1.0-service.xml \
+    manifest_oplus_camera_slogan.xml \
     autobt \
     bip \
     ccci_fsd \
@@ -964,13 +959,11 @@ PRODUCT_PACKAGES += \
     android.hardware.keymaster@4.0-service.trustonic \
     android.hardware.neuralnetworks@1.3-service-mtk-neuron \
     android.hardware.secure_element@1.2-service-mediatek \
-    android.hardware.sensors@2.0-service-mediatek \
     camerahalserver \
     mtkfusionrild \
     vendor.mediatek.hardware.aee@1.0-service \
     vendor.mediatek.hardware.dfps@1.0-service \
     vendor.mediatek.hardware.gpu@1.0-service \
-    vendor.mediatek.hardware.keymaster_attestation@1.1-service \
     vendor.mediatek.hardware.mms@1.5-service \
     vendor.mediatek.hardware.mtkcodecservice@1.1-service \
     vendor.mediatek.hardware.nvram@1.1-service \
@@ -1061,6 +1054,7 @@ PRODUCT_PACKAGES += \
     wmt_launcher \
     wmt_loader \
     vtservice \
+    camerasloganserver \
     vendor.oplus.hardware.biometrics.fingerprint@2.1-service
 
 PRODUCT_PACKAGES += \
